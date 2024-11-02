@@ -27,8 +27,8 @@ ahash = { version = "0.8.11", default-features = false, features = [
 ] }
 document-features = "0.2.10"
 eframe = { version = "0.29.0", default-features = false }
-egui = { version = "0.29.0", default-features = false }
-emath = { version = "0.29.0", default-features = false }
+egui = { git="https://github.com/emilk/egui.git", rev="ad14bf2490c0d1e0960e0efc1143c8eeaf3eb0c6", features=["puffin"] }
+emath = { git="https://github.com/emilk/egui.git", rev="ad14bf2490c0d1e0960e0efc1143c8eeaf3eb0c6" }
 env_logger = { version = "0.10", default-features = false, features = [
     "auto-color",
     "humantime",
